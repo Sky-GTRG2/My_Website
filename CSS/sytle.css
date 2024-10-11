@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center; 
+    position: fixed;
+     top: 0;
+     z-index: 5;
+    left: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(61, 61, 61, 0.212);
+   
+    position: fixed;
+
+}
+.nav ul{
+    display:flex ;
+    list-style: none;
+}
+.nav ul li a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.6s;
+    font-family: "Josefin Sans", system-ui;
+
+}
+.nav ul li a:hover{
+    border-bottom:  solid 4px white;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    padding-right: 10px;
+
+}
+.logo h1{
+   color: rgb(0, 238, 255); 
+   text-transform: uppercase;
+     font-size: 30px;
+     font-family: "Josefin Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding: 20px;
+}
+.logo h1 span{
+color: rgb(193, 193, 193);
+}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img video{
+    position: absolute;
+    top:0;
+    width: 100%;
+    left: 0;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+.home h1{
+    color: rgb(107, 255, 255);
+    font-size: 50px;
+    padding-bottom: 20px;
+    transition: 0.6s;
+    font-family: "Josefin Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+}
+.home h1:hover{
+    color: tomato;
+}
+.home p{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: "Titillium Web", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  
+  
+}
+.home .content{
+    width: 70%;
+    z-index: 3;
+    
+}
+.home a{
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(244, 255, 91, 0.761);
+   text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: 0.6s;
+}
+.home a:hover{
+    background-color: tomato;
+}
+.card{
+    width: 100%;
+    position: relative;
+     margin: auto;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 7%;
+}
+.card h1{
+    position: relative;
+   font-family: "Playwrite DE Grund", cursive;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   text-align: center;
+   bottom: 8px;
+}
+.garis{
+    
+    margin: auto;
+    width: 300px;
+    height: 1%;
+    background-color: tomato;
+    border-radius: 20px;
+}
+.card1{
+    margin-top: 20px;
+   display: inline-block;
+   margin-left: 22%;
+   margin-right: 30px;
+    width: 370px;
+    height: 460px;
+    background-color:rgb(224, 224, 224) ;
+    border-radius: 20px;
+    position: relative;
+    
+   
+
+   
+}
+.card1 img{
+    padding-bottom: 20px;
+    height:300px ;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card1 h2{
+    text-align: center;
+    padding-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card1 p{
+    padding: 3px;
+    text-align: center;
+}
+.card .p1{
+    position: absolute;
+    background-color: rgba(247, 128, 128, 0.608);
+    font-size: 20px;
+    border-radius: 100px;
+    right: -15px;
+    top: -10px;
+}
+
+.card2{
+    display: inline-block;
+    width: 370px;
+    margin-right: 20px;
+    height: 460px;
+    background-color:rgb(224, 224, 224) ;
+    border-radius: 20px;
+    position: relative;
+   
+
+   
+}
+.card .p2{
+    position: absolute;
+    background-color: rgba(247, 128, 128, 0.608);
+    font-size: 20px;
+    border-radius: 100px;
+    right: -15px;
+    top: -10px;
+}
+
+.card2 img{
+    padding-bottom: 20px;
+    height:300px ;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card2 h2{
+    text-align: center;
+    padding-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card2 p{
+    padding: 3px;
+    text-align: center;
+}
+.tmbh{
+    margin-top: 2%;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    object-fit: cover;
+    background-image: url(https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+.tulisan{
+    width: 55%;
+    float: left;
+    padding-left: 10%;
+    position: relative;
+}
+.tulisan h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Josefin Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: rgb(255, 233, 161);
+}
+.tulisan p{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: "Josefin Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    text-align: center;
+    padding-top: 50px;
+}
+.grs{
+    
+    left: 25%;
+    position: absolute;
+    width: 200px;
+    height: 1%;
+    background-color: tomato;
+    border-radius: 20px;
+
+}
+
+
+  
+.navi ul {
+    display: flex;
+    
+    list-style: none;
+}
+.navi ul li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-right: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.6s;
+    font-family: "Josefin Sans", system-ui;
+
+}
+.navi ul li a:hover{
+ 
+    color: aqua;
+}
+.bwh{
+    margin-top: 20%;
+    
+}
+
+
+.bwh .con1{
+   width: 300px;
+    font-family: "Josefin Sans", system-ui;
+    text-align: center;
+   
+}
+.con1 p{
+    font-family: "Josefin Sans", system-ui;
+    size: 15px;
+   
+    
+    
+}
+.con1 h1{
+    padding-bottom: 15px;
+}
+.con1 span{
+    color: yellow;
+}
+.con2{
+    width: 200px;
+    font-family: "Josefin Sans", system-ui;
+    text-align: center;
+    
+    
+   
+
+}
+
+.con2 h2{
+    margin-right:-20px ;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+   
+
+.nap ul{
+    display: flex;
+    list-style: none;
+}
+.nap ul li a{
+    font-size: 20px;
+   
+    margin-left: -28px;
+    padding: 20px;
+   align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nap ul li :hover{
+    color: yellow;
+    border-bottom: solid 2px white ;
+}
+.con3{
+    width: 300px;
+    text-align: center;
+    font-family: "Josefin Sans", system-ui;
+}
+.p3{
+    padding-top: 20px;
+}
+.p4{
+    padding-top: 5px;
+    margin-bottom: 25px;
+}
+.mds ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+.mds ul li  a{
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: 29px;
+    
+}
+.mds ul li :hover{
+    color: yellow;
+    border-bottom: solid 2px white ;
+}
+
+  .bwh .footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Josefin Sans", system-ui;
+    height: 5vh;
+    padding-top: 20px;
+    justify-content: center;
+   
+    
+}
+.con{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color:white ;
+    background-color: black;
+    padding: 90px;
+    margin-bottom: 1px;
+}
+
+  
