@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Playwrite+DE+Grund:wght@100..400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -44,7 +46,7 @@ header{
 
 }
 .logo h1{
-   color: rgb(0, 238, 255); 
+   color: rgb(238, 255, 0); 
    text-transform: uppercase;
      font-size: 30px;
      font-family: "Josefin Sans", system-ui;
@@ -54,7 +56,7 @@ header{
   padding: 20px;
 }
 .logo h1 span{
-color: rgb(193, 193, 193);
+color: rgb(255, 255, 255);
 }
 
 
@@ -84,9 +86,10 @@ color: rgb(193, 193, 193);
     font-optical-sizing: auto;
     font-weight:weight;
     font-style: normal;
+    text-align: center;
 }
 .home h1:hover{
-    color: tomato;
+    color: rgb(249, 255, 71);
 }
 .home p{
     color: aliceblue;
@@ -94,6 +97,7 @@ color: rgb(193, 193, 193);
     font-family: "Titillium Web", system-ui;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
   
   
 }
@@ -115,6 +119,7 @@ color: rgb(193, 193, 193);
     border-radius: 10px;
     margin-top: 30px;
     transition: 0.6s;
+    margin-left: 40%;
 }
 .home a:hover{
     background-color: tomato;
@@ -151,10 +156,11 @@ color: rgb(193, 193, 193);
    margin-left: 22%;
    margin-right: 30px;
     width: 370px;
-    height: 460px;
-    background-color:rgb(224, 224, 224) ;
+    height: 480px;
+    background-color:rgba(224, 224, 224, 0.562) ;
     border-radius: 20px;
     position: relative;
+
     
    
 
@@ -171,12 +177,15 @@ color: rgb(193, 193, 193);
 .card1 h2{
     text-align: center;
     padding-bottom: 8px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Josefin Sans", system-ui;
+
 
 }
 .card1 p{
-    padding: 3px;
+    padding: 2px;
     text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   
 }
 .card .p1{
     position: absolute;
@@ -191,8 +200,8 @@ color: rgb(193, 193, 193);
     display: inline-block;
     width: 370px;
     margin-right: 20px;
-    height: 460px;
-    background-color:rgb(224, 224, 224) ;
+    height: 480px;
+    background-color:rgb(224, 224, 224, 0.562) ;
     border-radius: 20px;
     position: relative;
    
@@ -219,12 +228,12 @@ color: rgb(193, 193, 193);
 .card2 h2{
     text-align: center;
     padding-bottom: 8px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: "Josefin Sans", system-ui;
 }
 .card2 p{
     padding: 3px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .tmbh{
     margin-top: 2%;
