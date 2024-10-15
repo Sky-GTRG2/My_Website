@@ -136,11 +136,7 @@ color: rgb(255, 255, 255);
 }
 .card h1{
     position: relative;
-    font-family: "Josefin Sans", system-ui; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   font-optical-sizing: auto;
-   font-weight: weight;
-   font-style: normal;
+    font-family: "Josefin Sans", serif;
    text-align: center;
    bottom: 8px;
 }
