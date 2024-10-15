@@ -132,10 +132,11 @@ color: rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
     margin-top: 30px;
     margin-bottom: 7%;
+    
 }
 .card h1{
     position: relative;
-   font-family: "Playwrite DE Grund", cursive;
+    font-family: "Josefin Sans", system-ui;
    font-optical-sizing: auto;
    font-weight: weight;
    font-style: normal;
@@ -157,9 +158,10 @@ color: rgb(255, 255, 255);
    margin-right: 30px;
     width: 370px;
     height: 480px;
-    background-color:rgba(224, 224, 224, 0.562) ;
+    background-color:rgba(224, 224, 224, 0.334) ;
     border-radius: 20px;
     position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     
    
@@ -201,9 +203,10 @@ color: rgb(255, 255, 255);
     width: 370px;
     margin-right: 20px;
     height: 480px;
-    background-color:rgb(224, 224, 224, 0.562) ;
+    background-color:rgb(224, 224, 224, 0.334) ;
     border-radius: 20px;
     position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 
    
